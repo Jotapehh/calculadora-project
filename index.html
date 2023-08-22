@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div id="painel">
+            <span id="tela"></span>
+        </div>
+        <article>
+            <section>
+                <button onclick="numberOne()">1</button>
+                <button onclick="numberTwo()">2</button>
+                <button onclick="numberThree()">3</button>
+                <button onclick="simbolMulti()">x</button>
+            </section>
+            <section>
+                <button onclick="numberFour()">4</button>
+                <button onclick="numberFive()">5</button>
+                <button onclick="numberSix()">6</button>
+                <button onclick="simbolSub()">-</button>
+            </section>
+            <section>
+                <button onclick="numberSeven()">7</button>
+                <button onclick="numberEight()">8</button>
+                <button onclick="numberNine()">9</button>
+                <button onclick="simbolDiv()">÷</button>
+            </section>
+            <section>
+                <button onclick="simbolPoint()">.</button>
+                <button onclick="numberZero()">0</button>
+                <button onclick="calcular()">=</button>
+                <button onclick="simbolAdd()">+</button>
+            </section>
+            <button id="clear" onclick="limpar()">Limpar</button>
+            <p>Desenvolvido por <a href="https://jotapeh-site.vercel.app" type="external" target="_blank">Jotapeh</a></p>
+        </article>
+    </main>
+    <footer>
+        <p>Aeh, cê pode <a href="https://github.com/Jotapehh/calculadora-project" title="calculadora-project" type="external" target="_blank" id="linkgit">acessar esse projeto pelo GitHub</a>. Sabia dessa?</p>
+        <p><a href="https://www.flaticon.com/br/icones-gratis/calculadora" title="calculadora ícones" type="external" target="_blank" style="color: white; font-size: 14px;">Calculadora ícones criados por Freepik - Flaticon</a></p>
+    </footer>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
